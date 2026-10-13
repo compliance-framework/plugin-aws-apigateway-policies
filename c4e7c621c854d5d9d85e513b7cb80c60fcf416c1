@@ -1,0 +1,4 @@
+lisa-design:
+- ci.yml is the mock-plugin-policies-1 caller verbatim with all three pins moved to v1.5.2 (6e7fc9c0); no directory input since policies live in policies/.
+- No release workflows added: W3 adds them (user decision 2026-10-13).
+- No Rego changes: opa fmt/check --strict/test/build on OPA 1.14.1 and Regal 0.43.0 with the shared config report 0 errors; the 4 Regal warnings are left alone (fix-errors-only rule).
