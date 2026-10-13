@@ -1,0 +1,5 @@
+lisa-design:
+- Manifest seeded at 0.0.0 with NO bootstrap-sha (W3-S2 batch 3 addendum): the repo never released and has 3 commits, so release-please reads the whole history and its first release PR proposes the shared initial-version 0.1.0.
+- release-please-config.json is a verbatim copy of mock-plugin-policies-1's (top-level keys equal workflows release-please/defaults.json at v1.5.2); release-type simple; no version.txt added by hand (release-please adds it).
+- Callers copied from mock-plugin-policies-1 with every pin at 6e7fc9c # v1.5.2; release.yml keeps opa-version 1.14.1 and directory policies so the bundle is built from policies/ only; preview.yml keeps on-main false.
+- ci.yml untouched: already at v1.5.2 with release-checks. No old release workflow exists, so nothing is deleted.
