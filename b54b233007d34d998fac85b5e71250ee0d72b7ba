@@ -1,0 +1,3 @@
+lisa-design:
+- LICENSE is a byte-for-byte copy of plugin-aws-ec2-policies' LICENSE (AGPL-3.0); plugin repos copy plugin-aws-ec2's, which differs only in whitespace and the fsf.org URL.
+- README follows plugin-aws-ec2-policies' structure; input fields come from plugin-aws-apigateway's DomainContext, coverage and policy data from policies/*.rego and policies/data.json.
